@@ -57,7 +57,6 @@ mighty gods to carry the mountains away.
 '''
 import stats_word
 try:
-    stats_word.stats_text(text)
+    print(stats_word.stats_text(text))
 except ValueError:
     print('请输入非字符串')
-print(stats_word.stats_text(text))
